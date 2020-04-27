@@ -271,12 +271,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner:
-  repo:
+  owner: imeixi
+  repo: gitalk
   oauth:
-    clientId:
-    clientSecret:
-  admin:
+    clientId: 794aa08e00b32ef17a54
+    clientSecret: a290900a3ee2c3d90a08cd779f7b9a4aaa1e5a93
+  admin: ['imeixi']
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
