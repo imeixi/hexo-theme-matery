@@ -66,13 +66,13 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: 生而为人我很抱歉
-  text: 
+  title: 当幸福来敲门
+  text: You got a dream, you gotta protect it. People can't do something themselves,they wanna tell you you can't do it.If you want something, go get it. 如果你有梦想的话，就要去捍卫它。那些一事无成的人想告诉你你也成不了大器。如果你有理想的话，就要去努力实现。
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   title: #非吸底模式有效
     enable: true
     show: 听听音乐
@@ -95,7 +95,7 @@ video:
   enable: true
   showTitle: true
   title: 精彩视频
-  url: https://www.bilibili.com/video/BV1mb411n7uY/  # 必填
+  url: <iframe src="//player.bilibili.com/player.html?aid=46644313&bvid=BV1mb411n7uY&cid=81710824&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  # 必填
   pic:
   thumbnails:
   height: # 如：400
@@ -497,7 +497,8 @@ ribbon_dynamic:
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
   enable: true
-  sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  # sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  sites: qq,wechat,weibo,douban
 
 # addthis文章分享模块.
 addthis:
@@ -513,8 +514,8 @@ subtitle:
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
-  sub1: 从来没有真正的绝境, 只有心灵的迷途
-  sub2: Never really desperate, only the lost of the soul
+  sub1: 有了目标就要全力以赴。
+  sub2: You want something. Go get it！
 
 # 手机二级菜单.
 navMenu:
