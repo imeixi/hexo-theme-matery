@@ -16,9 +16,9 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
+  # Contact:
+  #   url: /contact
+  #   icon: fas fa-comments
   Friends:
     url: /friends
     icon: fas fa-address-book
@@ -43,7 +43,7 @@ menu:
 # 站点运行开始时间.
 time:
   enable: true
-  year: 2013 # 年份
+  year: 2020 # 年份
   month: 03 # 月份
   date: 30 # 日期
   hour: 00 # 小时
@@ -95,7 +95,7 @@ video:
   enable: true
   showTitle: true
   title: 精彩视频
-  url: <iframe src="//player.bilibili.com/player.html?aid=46644313&bvid=BV1mb411n7uY&cid=81710824&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  # 必填
+  url: /medias/video/demo.mov  # 必填
   pic:
   thumbnails:
   height: # 如：400
